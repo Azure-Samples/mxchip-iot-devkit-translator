@@ -1,0 +1,28 @@
+{
+    "componentConfigs": [
+        {
+            "id": "eb6ef485-d8bc-ae44-0fd9-361c87393e85",
+            "folder": "",
+            "name": "",
+            "dependencies": [],
+            "type": "IoTHub"
+        },
+        {
+            "id": "df517096-75c6-6bfa-46ed-453e97a531d2",
+            "folder": "Functions",
+            "name": "",
+            "dependencies": [
+                {
+                    "id": "eb6ef485-d8bc-ae44-0fd9-361c87393e85",
+                    "type": 1
+                }
+            ],
+            "type": "AzureFunctions",
+            "componentInfo": {
+                "values": {
+                    "functionLanguage": "C#"
+                }
+            }
+        }
+    ]
+}

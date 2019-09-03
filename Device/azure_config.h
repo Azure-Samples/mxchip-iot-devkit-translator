@@ -1,0 +1,1 @@
+#define AZURE_FUNCTION_URL ""
