@@ -9,7 +9,7 @@ products:
 - azure-iot-hub
 name: "Azure MXChip IoT DevKit Translator"
 description: "Turn DevKit as a translator by using Bing Speech Translator service."
-urlFragment: "mxchip-iot-devkit-translator"
+urlFragment: "sample"
 ---
 
 ## Use IoT DevKit AZ3166 with Azure Functions and Cognitive Services to make a language translator
