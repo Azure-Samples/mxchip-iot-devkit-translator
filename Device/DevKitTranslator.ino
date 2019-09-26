@@ -33,7 +33,7 @@ enum STATUS
 
 static int wavFileSize;
 static char *waveFile = NULL;
-static char azureFunctionUri[128];
+static char azureFunctionUri[192];
 
 // The timeout for retrieving the result
 static uint64_t result_timeout_ms;
