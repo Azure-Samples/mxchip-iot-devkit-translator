@@ -5,7 +5,7 @@
 #include "AZ3166WiFi.h"
 #include "AzureIotHub.h"
 #include "DevKitMQTTClient.h"
-#include "OLEDDisplay.h"
+#include "OledDisplay.h"
 #include "SystemTickCounter.h"
 
 #include "azure_config.h"
