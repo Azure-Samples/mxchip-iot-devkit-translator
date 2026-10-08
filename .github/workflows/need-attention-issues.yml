@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: blackchoey/stale@releases/v1.2
+    - uses: blackchoey/stale@c201d45ef4b0ccbd3bb0616f93bae13e73d0a080 # v1.1.0
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         stale-issue-message: 'This issue has no recent activities, please take a look and provide updates for it.'
